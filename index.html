@@ -13,7 +13,7 @@
     <header>
         <h1>Forecast Genius - Weather Dashboard</h1>
     </header>
-<main>
+<main class = "container">
     <!-- Left Section for Search Bar and Search History -->
     <div class="left-section">
         <h2>Search for a city</h2>
@@ -25,8 +25,12 @@
         <!-- Search history section -->
         <div id="searchHistory">
             <h3>Search History</h3>
-            <!-- Search history items will be displayed here -->
+            <div class="search-history-item">
+                <p>City Name</p>
+                <button class="btn btn-sm btn-primary">View</button>
+            </div>
         </div>
+        
     </div>
     <!-- Right Section for Current Weather Condition and 5-Day Forecast -->
     <div class="right-section">
@@ -34,7 +38,7 @@
             <h2>Current Weather</h2>
             <div class="weather-info">
                 <h3>City Name</h3>
-                <p>Date: October 26, 2023</p>
+                <p>Date: </p>
                 <img class="weather-icon-0">
                 <p>Temperature:</p>
                 <p>Humidity:</p>
@@ -43,49 +47,64 @@
         </div>
 
         <div id="forecast">
-            <!-- 5-day forecast data will be displayed here -->
             <h2>5-Day Forecast</h2>
-            <div class="forecast-day">
-                <h3>Date 1</h3>
-                <img class="weather-icon-1">
-                <p>Temperature: </p>
-                <p>Wind Speed: </p>
-                <p>Humidity: </p>
-            </div>
-            <div class="forecast-day">
-                <h3>Date 2</h3>
-                <img class="weather-icon-2">
-                <p>Temperature:</p>
-                <p>Wind Speed:</p>
-                <p>Humidity:</p>
-            </div>
-            <div class="forecast-day">
-                <h3>Date 3</h3>
-                <img class="weather-icon-3">
-                <p>Temperature:</p>
-                <p>Wind Speed:</p>
-                <p>Humidity:</p>
-            </div>
-            <div class="forecast-day">
-                <h3>Date 4</h3>
-                <img class="weather-icon-4">
-                <p>Temperature:</p>
-                <p>Wind Speed:</p>
-                <p>Humidity:</p>
-            </div>
-            <div class="forecast-day">
-                <h3>Date 5</h3>
-                <img class="weather-icon-5">
-                <p>Temperature:</p>
-                <p>Wind Speed:</p>
-                <p>Humidity:</p>
-            </div>
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    <div class="forecast-day custom-forecast-box">
+                        <h3>Date 1</h3>
+                        <img class="weather-icon-1">
+                        <p>Temperature:</p>
+                        <p>Wind Speed:</p>
+                        <p>Humidity:</p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-2">
+                    <div class="forecast-day custom-forecast-box">
+                        <h3>Date 2</h3>
+                        <img class="weather-icon-2">
+                        <p>Temperature:</p>
+                        <p>Wind Speed:</p>
+                        <p>Humidity:</p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-2">
+                    <div class="forecast-day custom-forecast-box">
+                        <h3>Date 3</h3>
+                        <img class="weather-icon-3">
+                        <p>Temperature:</p>
+                        <p>Wind Speed:</p>
+                        <p>Humidity:</p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-2">
+                    <div class="forecast-day custom-forecast-box">
+                        <h3>Date 4</h3>
+                        <img class="weather-icon-4">
+                        <p>Temperature:</p>
+                        <p>Wind Speed:</p>
+                        <p>Humidity:</p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-2">
+                    <div class="forecast-day custom-forecast-box">
+                        <h3>Date 5</h3>
+                        <img class="weather-icon-5">
+                        <p>Temperature:</p>
+                        <p>Wind Speed:</p>
+                        <p>Humidity:</p>
+                    </div>
+                </div>                
+            </div>            
         </div>
     </div>
 
 </main>
 
-<script src="script.js" defer></script> <!-- You'll create this JS file for the script -->
+
 </body>
 
 </html>

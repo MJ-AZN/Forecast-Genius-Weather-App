@@ -1,0 +1,78 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, darkblue, rgb(63, 74, 226));
+    padding: 10px;
+    color: #ffffff;
+}
+
+h2, h3, p {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section, .right-section {
+    height: 100%;
+}
+
+#cityForm {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#cityInput {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#searchHistory {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    height: 200px; 
+    overflow-y: auto; 
+}
+
+.weather-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.forecast-day {
+    margin-bottom: 10px;
+}
+
+.custom-forecast-box {
+    background-color: #03083d;
+    color: #ffffff; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.right-section {
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#currentWeather {
+    margin-bottom: 20px;
+}
