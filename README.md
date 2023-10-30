@@ -1,6 +1,8 @@
 # Forecast Genius - Weather Dashboard
 Forecast Genius is a weather dashboard that allows users to get current weather information and a 5-day forecast for a specific city. Users can search for a city, view their search history, and get detailed weather data at a glance.
 
+Link to deployed application: https://mj-azn.github.io/Forecast-Genius-Weather-App/
+
 ## Table of Contents
 - [Description](#description)
 - [Screenshot](#screenshot)
